@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Privacy-first on-device permissions: Zero INTERNET permission -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".ScreenIntelApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScreenIntel">
+
+        <!-- Tells Google Play Services to download the OCR model upon installation -->
+        <meta-data
+            android:name="com.google.ml.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".core.notification.InstantActionReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.littech.screenintel.ACTION_COPY_OTP" />
+                <action android:name="com.littech.screenintel.ACTION_DELETE_SCREENSHOT" />
+                <action android:name="com.littech.screenintel.ACTION_PAY_UPI" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

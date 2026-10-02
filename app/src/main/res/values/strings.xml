@@ -1,0 +1,173 @@
+<resources>
+    <!-- App & General -->
+    <string name="app_name">ScreenIntel</string>
+    <string name="offline_guarantee">100% On-Device</string>
+    <string name="offline_guarantee_cd">Offline Guarantee</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_storage_deduplication">Storage &amp; Deduplication</string>
+    <string name="title_filter_and_sort">Filter &amp; Sort Screenshots</string>
+    <string name="extracted_intelligence">Extracted Intelligence</string>
+    <string name="extracted_text_ocr">Extracted Text (OCR)</string>
+    <string name="screenshot_details">Screenshot Details</string>
+    <string name="quick_actions">Quick Actions</string>
+
+    <!-- Search & Actions -->
+    <string name="search_placeholder">Search text, UPI, tickets, code, receipts…</string>
+    <string name="action_search">Search</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_scan_gallery">Scan Gallery</string>
+    <string name="action_scan_device_gallery">Scan Device Gallery</string>
+    <string name="action_scan_screenshots">Scan Screenshots</string>
+    <string name="action_cleanup_duplicates">Cleanup Duplicates</string>
+    <string name="action_filter_options">Filter &amp; Sort Options</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_apply_filters">Apply Filters</string>
+    <string name="action_copy_text">Copy Text</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Filter & Sort -->
+    <string name="date_captured">Date Captured</string>
+    <string name="sort_by">Sort By</string>
+    <string name="filter_date_all">All Time</string>
+    <string name="filter_date_today">Today</string>
+    <string name="filter_date_yesterday">Yesterday</string>
+    <string name="filter_date_week">Last 7 Days</string>
+    <string name="filter_date_month">Last 30 Days</string>
+    <string name="filter_date_year">This Year</string>
+    <string name="filter_sort_newest">Newest First</string>
+    <string name="filter_sort_oldest">Oldest First</string>
+    <string name="filter_sort_relevance">Relevance</string>
+    <string name="filter_sort_largest">Largest Size</string>
+    <string name="filter_sort_smallest">Smallest Size</string>
+    <string name="filter_sort_name">Name (A–Z)</string>
+    <string name="file_size_title">File Size</string>
+    <string name="filter_size_all">Any Size</string>
+    <string name="filter_size_small">&lt; 500 KB</string>
+    <string name="filter_size_medium">500 KB – 2 MB</string>
+    <string name="filter_size_large">&gt; 2 MB</string>
+    <string name="filter_name_title">File Name / Path</string>
+    <string name="filter_name_placeholder">Search file name, e.g. Screenshot, Zoho…</string>
+    <string name="filter_clear_all">Clear All</string>
+    <string name="filter_active_filters">Active Filters</string>
+    <string name="filter_actionable_only">Only Actionable Items</string>
+    <string name="filter_actionable_only_desc">UPI IDs, PNR tickets, receipts, or OTP verification codes</string>
+    <string name="filter_min_text_len">Min Text Length</string>
+    <string name="filter_any_length">Any length</string>
+    <string name="filter_chars_format">%1$d chars</string>
+
+    <!-- Categories -->
+    <string name="cat_all">All</string>
+    <string name="cat_payments">Payments</string>
+    <string name="cat_tickets">Tickets</string>
+    <string name="cat_receipts">Receipts</string>
+    <string name="cat_credentials">Credentials</string>
+    <string name="cat_contacts">Contacts</string>
+    <string name="cat_code">Code</string>
+    <string name="cat_chats">Chats</string>
+    <string name="cat_documents">Documents</string>
+    <string name="cat_other">Other</string>
+
+    <!-- Indexing & Empty States -->
+    <string name="indexing_in_progress">Indexing screenshots with on-device OCR…</string>
+    <string name="no_matching_found">No matching screenshots found</string>
+    <string name="no_matching_found_desc">Try adjusting your search terms or clearing the active filters.</string>
+    <string name="no_screenshots_yet">No screenshots indexed yet</string>
+    <string name="no_screenshots_yet_desc">Scan your screenshot gallery to automatically extract text, recognize payments, and make everything searchable on-device.</string>
+    <string name="screenshot_not_found">Screenshot not found.</string>
+    <string name="no_text_recognized">No text recognized in this screenshot.</string>
+    <string name="permission_required_title">Gallery Access Required</string>
+    <string name="permission_required_desc">ScreenIntel operates 100% on-device with zero internet access. Grant storage permission so ScreenIntel can read and index your screenshots.</string>
+    <string name="action_grant_permission">Grant Gallery Access</string>
+
+    <!-- Viewer Screen -->
+    <string name="masked">Masked</string>
+    <string name="raw">Raw</string>
+    <string name="dimensions">Dimensions</string>
+    <string name="file_size">File Size</string>
+    <string name="visual_hash">Visual Hash</string>
+    <string name="file_path">Path</string>
+    <string name="delete_dialog_title">Delete Screenshot?</string>
+    <string name="delete_dialog_msg">This will remove the screenshot and its search index from ScreenIntel.</string>
+    <string name="toast_copied_text">Copied extracted text</string>
+    <string name="toast_no_upi_app">No UPI app found</string>
+    <string name="toast_cannot_open_url">Cannot open URL</string>
+    <string name="toast_copied_otp">Copied OTP: %1$s</string>
+    <string name="toast_deleted_duplicates">Deleted %1$d duplicate(s)</string>
+    <string name="pinch_to_zoom">Pinch to zoom</string>
+    <string name="reset_zoom">Reset Zoom</string>
+    <string name="raw_extracted_json">Raw Extracted JSON</string>
+    <string name="upi_payment_ids">UPI Payment IDs</string>
+    <string name="transaction_amounts">Transaction Amounts</string>
+    <string name="pnr_booking_ids">PNR &amp; Booking IDs</string>
+    <string name="web_urls">Web URLs</string>
+    <string name="phone_numbers">Phone Numbers</string>
+    <string name="otp_verification_codes">OTP &amp; Verification Codes</string>
+    <string name="email_addresses">Email Addresses</string>
+
+    <!-- Cleanup Screen -->
+    <string name="matching_sensitivity">Matching Sensitivity</string>
+    <string name="sensitivity_strict">Strict (dHash ≤ %1$d)</string>
+    <string name="sensitivity_balanced">Balanced (dHash ≤ 3)</string>
+    <string name="sensitivity_broad">Broad (dHash ≤ %1$d)</string>
+    <string name="sensitivity_identical">Identical Only</string>
+    <string name="sensitivity_balanced_label">Balanced</string>
+    <string name="sensitivity_similar">Near-Similar</string>
+    <string name="no_duplicates_title">No Duplicates at Threshold %1$d</string>
+    <string name="no_duplicates_desc">Try increasing the matching sensitivity slider above to detect near-similar screenshots.</string>
+    <string name="duplicate_clusters_found">%1$d Duplicate Clusters Found</string>
+    <string name="reclaimable_space">Reclaimable Space: %1$d KB</string>
+    <string name="visual_match">Visual Match (dHash dist: %1$d)</string>
+    <string name="copies_count">%1$d copies</string>
+    <string name="keep_original">Keep (Original)</string>
+    <string name="badge_duplicate">Duplicate</string>
+    <string name="btn_delete_duplicates">Delete Older Duplicates</string>
+    <string name="delete_duplicates_dialog_title">Delete Duplicate Copies?</string>
+    <string name="delete_duplicates_dialog_msg">This will delete %1$d duplicate screenshot(s) and free up %2$d KB of storage. The original screenshot will be kept.</string>
+    <!-- Additional UI & Action Labels -->
+    <string name="cd_screenshot_preview">Screenshot preview</string>
+    <string name="cd_copy_text">Copy text</string>
+    <string name="toast_copied_ocr_text">Copied OCR text</string>
+    <string name="time_recently">Recently</string>
+    <string name="time_minutes_ago">%1$dm ago</string>
+    <string name="time_hours_ago">%1$dh ago</string>
+    <string name="time_days_ago">%1$dd ago</string>
+    <string name="action_pay">Pay %1$s</string>
+    <string name="action_call">Call %1$s</string>
+    <string name="action_otp">OTP: %1$s</string>
+    <string name="clip_label_text">Screenshot Text</string>
+    <string name="clip_label_otp">OTP</string>
+
+    <!-- Background Notification Strings -->
+    <string name="notif_channel_name">Screenshot Indexing</string>
+    <string name="notif_channel_desc">Shows progress when extracting text and intelligence from screenshots</string>
+    <string name="notif_indexing_title">Indexing Screenshots</string>
+    <string name="notif_indexing_progress">Extracting text &amp; intelligence (%1$d of %2$d)…</string>
+    <string name="notif_complete_title">Indexing Complete</string>
+    <string name="notif_complete_msg">%1$d new screenshot(s) indexed &amp; ready to search</string>
+
+    <!-- Undo & Restoration Strings -->
+    <string name="action_undo">Undo</string>
+    <string name="msg_screenshot_deleted">Screenshot deleted</string>
+    <string name="msg_duplicates_deleted">Deleted %1$d duplicate(s)</string>
+    <string name="msg_screenshot_restored">Screenshot restored</string>
+    <string name="msg_duplicates_restored">Duplicates restored</string>
+    <string name="action_save_contact">Save to Contacts</string>
+    <string name="toast_cannot_save_contact">No Contacts app available</string>
+    <string name="toast_reindexed_format">Re-categorized %1$d screenshot(s)</string>
+    <string name="toast_scan_up_to_date">All screenshots already indexed (%1$d items)</string>
+    <string name="action_reclassify">Re-classify All</string>
+    <string name="toast_copied_item">Copied %1$s</string>
+
+    <!-- Selection Mode -->
+    <string name="action_select_all">Select All</string>
+    <string name="action_exit_selection">Exit Selection</string>
+    <string name="action_share_selected">Share Selected</string>
+    <string name="action_delete_selected">Delete Selected</string>
+    <string name="msg_bulk_deleted">Deleted %1$d screenshot(s)</string>
+    <string name="label_selected_count">%1$d selected</string>
+    <string name="search_hint_date">Try "Sep 20", "today", "yesterday"…</string>
+</resources>

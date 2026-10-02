@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Phone / Screenshot Canvas Silhouette -->
+    <path
+        android:pathData="M34,25 L60,25 A5,5 0 0,1 65,30 L65,74 A5,5 0 0,1 60,79 L34,79 A5,5 0 0,1 29,74 L29,30 A5,5 0 0,1 34,25 Z"
+        android:fillColor="#1E293B"
+        android:strokeColor="#64748B"
+        android:strokeWidth="1.5" />
+
+    <!-- Phone Screen Display Area -->
+    <path
+        android:pathData="M32,29 L58,29 A2,2 0 0,1 60,31 L60,73 A2,2 0 0,1 58,75 L32,75 A2,2 0 0,1 30,73 L30,31 A2,2 0 0,1 32,29 Z"
+        android:fillColor="#0F172A" />
+
+    <!-- OCR Text Lines on Screenshot -->
+    <path
+        android:pathData="M35,36 L52,36"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M35,42 L55,42"
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M35,48 L48,48"
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M35,54 L54,54"
+        android:strokeColor="#64748B"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M35,60 L45,60"
+        android:strokeColor="#64748B"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <!-- Intelligence Magnifying Scan Lens (Glowing Search & OCR) -->
+    <!-- Lens Body with Gradient -->
+    <path
+        android:pathData="M61,56m-13,0a13,13 0 1,1 26,0a13,13 0 1,1 -26,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="43"
+                android:endX="74"
+                android:endY="69"
+                android:type="linear">
+                <item android:color="#2563EB" android:offset="0.0" />
+                <item android:color="#0284C7" android:offset="0.7" />
+                <item android:color="#06B6D4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lens Rim -->
+    <path
+        android:pathData="M61,56m-13,0a13,13 0 1,1 26,0a13,13 0 1,1 -26,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5" />
+
+    <!-- AI Sparkle / Focal Crosshair inside Lens -->
+    <path
+        android:pathData="M61,49 L61,63 M54,56 L68,56"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+
+    <!-- Small Sparkle Star in Lens Center -->
+    <path
+        android:pathData="M61,53.5 L62,55 L63.5,56 L62,57 L61,58.5 L60,57 L58.5,56 L60,55 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Lens Handle -->
+    <path
+        android:pathData="M70.5,65.5 L80,75"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round" />
+
+    <!-- 100% On-Device Privacy Shield Badge (Bottom Left) -->
+    <path
+        android:pathData="M27,67 L33,64 L39,67 L39,73 C39,77 33,81 33,81 C33,81 27,77 27,73 Z"
+        android:fillColor="#0D9488"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2" />
+
+    <!-- Lock Keyhole in Privacy Shield -->
+    <path
+        android:pathData="M33,69 A1.5,1.5 0 0,0 31.5,70.5 L31.5,72 L34.5,72 L34.5,70.5 A1.5,1.5 0 0,0 33,69 Z M31,72 L35,72 L35,75.5 L31,75.5 Z"
+        android:fillColor="#FFFFFF" />
+</vector>
